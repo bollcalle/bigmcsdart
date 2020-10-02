@@ -19,11 +19,11 @@
 
             switch (a) {
                 case 1 :
-                    CustomerMenuOption.rentGame();
+                    //CustomerMenuOption.rentGame();
                     break;
 
                 case 2 :
-                    CustomerMenuOption.returnGame();
+                    //CustomerMenuOption.returnGame();
                     break;
 
                 case 3 :

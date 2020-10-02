@@ -23,14 +23,14 @@ public class ManagerMenu {
         UserInput.stringInput("");
         switch (inputUser) {
             case 1 :
-                ManageEmployee.addEmployee();
+                //ManageEmployee.addEmployee();
                 break;
             case 2 :
-                ManageEmployee.viewEmployee();
+                //ManageEmployee.viewEmployee();
                 break;
             case 3 :
                 int ID = UserInput.intInput("Enter the ID of the employee you want to remove");
-                ManageEmployee.removeEmployee(ID);
+                //ManageEmployee.removeEmployee(ID);
                 break;
             case 4:
                 Menu.menu();

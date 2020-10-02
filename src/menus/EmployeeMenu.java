@@ -29,27 +29,27 @@ package menus;
                 UserInput.stringInput("");
                 switch (employeeMenuOption) {
                     case 1:
-                        RegisterGame.registerGame("");
+                        //RegisterGame.registerGame("");
                         break;
 
                     case 2:
-                        RemoveGame.Game("");
+                        //RemoveGame.Game("");
                         break;
 
                     case 3:
-                        RegisterAlbum.registerAlbum("");
+                        //RegisterAlbum.registerAlbum("");
                         break;
 
                     case 4:
-                        RemoveAlbum.Album("");
+                        //RemoveAlbum.Album("");
                         break;
 
                     case 5:
-                        RegisterCustomer.registerCustomer(UserInput.stringInput ("Enter name of customer:"));
+                        //RegisterCustomer.registerCustomer(UserInput.stringInput ("Enter name of customer:"));
                         break;
 
                     case 6:
-                        RemoveCustomer.customer();
+                        //RemoveCustomer.customer();
                         break;
 
                     case 7:
@@ -57,7 +57,7 @@ package menus;
                         break;
 
                     case 8:
-                        for (int i = 0; i < maxGames;i++){
+                        /*for (int i = 0; i < maxGames;i++){
 
                             if(RegisterGame.arrayGames[i]==null){
 
@@ -65,7 +65,7 @@ package menus;
                                 System.out.println(RegisterGame.arrayGames[i]);
                             }
                         }
-                        break;
+                        break;*/
                     case 9:
                         Menu.menu();
                         break;
